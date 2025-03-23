@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specification
+    </title>
+    <style>
+        .left img {
+            height: 400px;
+            margin-top: 50px;
+            margin-right: 45px;
+        }
+
+        .main {
+            display: flex;
+            margin-left: 20%;
+        }
+
+        a {
+            font-size: 10px;
+        }
+
+        .right span img {
+            width: 50px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        #logo img {
+            width: 100px;
+
+        }
+        #do{
+            display: flex;
+            gap: 2%;
+        }
+        .d1,.d2,.d3{
+            border: 3px solid #f7f7f7;
+            border-radius: 5px;
+            width: 150px;
+            overflow: hidden;
+            height: 100px;
+            padding-left: 10px;
+           }
+           #do1{
+            display: flex;
+            gap: 1%;
+           }
+           .mo img{
+            width: 73px;
+            height: 80px;
+            padding: 10px;
+           }
+           .mo{
+            display: flex;
+            gap: 3%;
+           }
+           .mobi1{
+            border: 2px solid black;
+            border-radius: 5%;
+           }
+           .mobi1 h3{
+            padding-left: 10px;
+           }
+           .right{
+            overflow: scroll;
+            height: 700px;
+            scrollbar-width: none;
+           }
+
+           .first {
+            text-align: center;
+            align-items: center;
+            background-color: #364759;
+            color: white;
+            padding: 1px;
+            /* width: 100; */
+        }
+    
+        .first:hover {
+            background-color: gray;
+        }
+    
+        ul li {
+            list-style: none;
+        }
+    
+        ul {
+            display: inline;
+            /* margin: 0px; */
+        }
+        .middle{
+            display: flex;
+            gap: 5%;
+            align-items: start;
+            justify-content: space-around;
+            margin-left: 4%;
+            padding-top: 30px ;
+        }
+        @media (max-width: 550px) {
+        .middle {
+          display: block;
+        }
+        .main{
+            display: block;
+        } 
+       
+      
+      }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="left"><img src="https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_.jpg" alt=""></div>
+        <div class="right">
+            <p>Samsung Galaxy S25 Ultra 5G AI <br>Smartphone (Titanium Black, 12GB RAM, <br>256GB Storage), 200MP
+                Camera, S Pen <br> Included, Long Battery Life <br>
+                <a
+                    href="https://www.amazon.in/stores/SamsungBrandPage/page/7613B800-61FF-4320-8DEF-4A3711D5E41C?ref_=ast_bln">Visit
+                    the Samsung Store</a> <br>
+                <span> <span>4.4</span> <img
+                        src="https://www.shutterstock.com/image-vector/rate-us-concept-4-half-260nw-1430987933.jpg"
+                        alt=""></span>
+                <span><a href=""> 73 ratings | </a></span> <span><a href="">Search this page| </a></span><br>
+            <p id="logo"><img src="image.png" alt=""></p>
+            <hr>
+            </p>
+            <h2>₹1,29,999</h2>
+            <p>Inclusive of all taxes <br>
+                EMI starts at ₹6,303. No Cost EMI available EMI options </p>
+            <hr>
+            <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAcCAYAAAATFf3WAAAAAXNSR0IArs4c6QAABI5JREFUWEftl1lIo1cUx/9fjGZGrcRqR1AUJ1NRqhVbqA8iIuIGxYJFHaVuIKhg3R7EHXGraxEXEBTFuhS1Fh+KWDecwVrBvihWnIp1X/DBtYpLzJdy7lCbmNTv01DoQ89bknvO+d1zzxZOrVar8R8WzlDAxsZGLC0tITAwEP7+/uyqExMTGB0dhZOTEzIyMgy6vkGAQ0ND6O7uRlRUFIPa3NxkMA4ODvDz80NfXx/7LSQk5NGQDwY8PDzE7u4u1tbW0N7ejqKiInh4eDCA1dVVUMa8ePGCfZ6fn0dxcTHi4uKgUChga2sLKyurB8E+CLC2thaTk5OQy+XMWUBAAHva+2R8fBwjIyPsUsfHx/D19UVWVpZoyAcBJiUlISYmBt7e3qIdaB6cnp5GR0cHWltbReuLBuR5HqGhoaCioBx7jGxtbSElJQWDg4MwMjISZUI04MzMDCoqKjAwMAATExNRxu8eUiqVCAsLQ3Z2Nry8vETZEASkpO/v70dvby+Sk5MRFBSkZZjffAX10TIkimBw72hEVs3j5udSQK6A1DXmVofaT3NzMyIiIhAZGQmO4+4FFQTs7OzE2NgYCgoK4OzsrGVM9eY7KKcKIJErwJ/t4UnkBPDUClDzUL7OAb82CpPPvgVn9YGW3vLyMsrKylgrio+PNwyQet3w8DCampp0DCnHU8EZm0PqU4ardncY+zdC4uD7N1xINzhrN70AaWlprAsI9UjBCJ6fnyM2Nhbl5eVwcXHRjuBSL5TTxZBYOoE/WYfs5Rhufvn6beTugaMI5uTkoKurC2ZmZoZFkLSrq6tZ70tMTNQxxq+PgT/8DUbPg3Ez3yIIRwaozRwcHDBIIRGMIBkgsPDwcPYkekUj54w/7YD64A3Up5swcg4DJ1foqNBYpKJraWkxvEgWFhZQUlLCZq5MJtPl0yyIkG6o1seh+vUbSOTvgz/+HSZRr8DJLLT0rq+vER0djby8vNsx+U+RFIwgFQfN3aqqKkilUm07d+CoIK5/+AKSZ+6QfvwlLts+hOzz78E9+0g7d1Uq5Obmwt7eHqmpqYbl4Pb2NmsJFhYWzKilpeWtwZvXuVCtDmsVBEVPOfMVONP3AEggezkCSJ/e6tA8poZ/cnKC/Px8BnmfCEaQlC8uLlBXV4eVlRW0tbW9zRuK3o+JkH6SodNK+O2foP5jC5LnQeCevKvlPyEhgW02mZmZMDU1FaoRiAIkK5eXl2xM0bC3trYWNKzvAFUutSyaTELt5S990YCkQJsMrUru7u6PAqSCq6ysRE9Pj2j9BwHSkKfndXNzg52dHatAzZzU5/Xo6Ahzc3NsHyRAlUqFmpqafweQJsDs7Cx2dnawsbGBq6sr1NfXw9zcXK/Ds7MzlmtU/Y6OjmzJ9fT01JnpBheJPgO05RQWFjLnFNmpqSm2OdP3tPH4+PiwCUQ9r7S0FBKJRHTUNA8+6Invejg9PUV6ejroGW1sbBAcHMxSgJaL/f19Nh4bGhpYi3qsGARITvf29kB/pFxdXbUYFhcXWX7SsxoiBgMa4lyM7v+AYqJ035k/AZyZOstgF1xXAAAAAElFTkSuQmCC"
+                    alt=""><span>offers</span></p>
+
+                    <div id="do">
+                        <div class="d1"> <strong>Bank Offer</strong> <br>
+                            Upto ₹11,000.00 <br>discount on select <br>Credit Cards, HDFC... </div>
+                        <div class="d2"> <strong> No Cost EMI </strong><br>
+                            Upto ₹10,599.16 EMI interest savings on select Credit Cards, HDFC Bank Debit.. </div>
+                        <div class="d3"><strong>Cashback </strong> <br>Upto ₹3,899.97 cashback as Amazon Pay Balance when</div>
+                    </div>
+                    <hr>
+
+                    <div id="do1">
+                        <div class="p1"><img src="7day.png" alt=""></div>
+                        <div class="p2"><img src="free delivery.png" alt=""></div>
+                        <div class="p3"><img src="one year waraty.png" alt=""></div>
+                        <div class="p4"><img src="pay on.png" alt=""></div>
+                        <div class="p5"><img src="top brand.png" alt=""></div>
+                        
+                    </div>
+                    <hr>
+
+                    <div class="mo">
+                        <div class="mobi1"><img src="https://m.media-amazon.com/images/I/71uqj6BKnRL._SL1500_.jpg" alt=""> <hr><h3>₹1,29,999</h3></div>
+                        <div class="mobi1"><img src="https://m.media-amazon.com/images/I/71P85R392uL._SL1500_.jpg" alt=""> <hr><h3>₹1,29,999</h3></div>
+                        <div class="mobi1"><img src="https://m.media-amazon.com/images/I/71rs4Aer71L._SL1500_.jpg" alt=""><hr><h3>₹1,29,999</h3></div>
+                        <div class="mobi1"><img src="https://m.media-amazon.com/images/I/71uqj6BKnRL._SL1500_.jpg" alt=""><hr><h3>₹1,29,999</h3></div>
+                    </div>
+
+
+
+
+        </div>
+    </div>
+
+
+    <div class="main1">
+        <div class="first">
+
+            <h2>Back to Top</h2>
+        </div>
+
+        <div class="middle">
+            <div class="div1">
+                <h3>Get to Know Us
+
+                </h3>
+                <p>About Amazon <br>
+                    Careers <br>
+                    Press Releases <br>
+                    Amazon Science</p>
+            </div>
+            <div class="div2">
+                <h3>Connect with Us
+                </h3>
+                <p>Facebook <br>
+                    Twitter <br>
+                    Instagram</p>
+            </div>
+            <div class="div3">
+                <h3> Make Money with Us
+                </h3>
+                <p> Sell on Amazon <br>
+                    Sell under Amazon Accelerator <br>
+                    Protect and Build Your Brand <br>
+                    Amazon Global Selling <br>
+                    Supply to Amazon <br>
+                    Become an Affiliate <br>
+                    Fulfilment by Amazon <br>
+                    Advertise Your Products <br>
+                    Amazon Pay on Merchants</p>
+            </div>
+            <div class="div4">
+                <h3>
+                    Let Us Help You
+                </h3>
+               
+                <ul>
+                    <li> Your Account</li>
+                    <li> Returns Centre</li>
+                    <li>Recalls and Product Safety Alerts</li>
+                    <li> 100% Purchase Protection</li>
+                    <li>Amazon App Download</li>
+                    <li>Help</li>
+                </ul>
+
+            
+            </div>
+        </div>
+
+
+
+
+    </div>
+</body>
+
+</html>
